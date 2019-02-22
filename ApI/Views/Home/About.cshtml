@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<h2>Titles:</h2>
+
+@for (int i = 0; i < 10; i++)// 10 titles
+{<ul>
+        <li>@ViewBag.ttitle[i]</li>
+
+    </ul>
+
+
+}
+
+@for (int i = 0; i < 10; i++)// 10 images
+{<ul>
+        <li>"@ViewBag.image[i]"</li>
+
+    </ul>
+
+
+}
+
+
+
